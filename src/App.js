@@ -17,7 +17,6 @@ function App() {
   const login = () => {
     dispatch({type: 'LOGIN', payload: {id:'sangwon',password:1234}})
   }
-
   return (
     <div>
       <h1>{id},{password}</h1>
